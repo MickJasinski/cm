@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+/*Used colors: dark-brown: #232726 gold: #e8c15f*/
+
+/*======== Global ========*/
+
+.container {
+    max-width: 1200px;
+    padding: 0px;
+}
+
+.row {
+    padding: 15px;
+}
+
+
+/*======== Nav bar ========*/
+
+.navbar {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    min-height: 0;
+    max-height: 70px;
+    z-index: 1;
+}
+
+.navbar-inverse {
+    background-color: #232726;
+    border-radius: 0;
+    border: none;
+}
+
+.navbar .navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 50px);
+    max-width: 400px;
+}
+
+.navbar-toggle {
+    margin-right: 0;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+
+@media (min-width: 768px) {
